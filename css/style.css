@@ -1,13 +1,16 @@
 /* Estilos generales */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
-    font-size:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    
 }
-
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -28,13 +31,12 @@ nav a{
     margin: 0 10px;
     text-decoration: none;
 }
-
 article {
     text-align: center;
     padding: 20px;
 }
 
-.bloque1 .bloque5 {
+.bloque1, .bloque5 {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -42,25 +44,31 @@ article {
     text-align: center;
 }
 
+.bloque1 a {
+    color: #ee9208;
+}
+
 /* Estilos para la imagen */
-.bloque{
+.bloque {
     text-align: center;
     transform: scale(1.1);
     transition: transform 0.3s;
     border-radius: 10px;
 }
+
 img {
     max-width: 100%;
     height: auto;
-      
 }
-.bloque img{
+
+.bloque img {
     margin: 10px;
     max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.bloque img:hover{
+
+.bloque img:hover {
     transform: scale(1.1);
     transition: transform 0.3s;
 }
@@ -80,20 +88,6 @@ h2 {
 }
 
 /* Estilos para la sección de contacto */
-.bordes{
-    
-    
-}
-
-
-body {
-    font-size:Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    
-}
-
 section {
     background-color: #fff;
     margin: 20px;
@@ -134,7 +128,6 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
 }
 
 input[type="submit"]:hover {
@@ -142,29 +135,26 @@ input[type="submit"]:hover {
 }
 
 .horarios {
-    background-color: #f0f0f0; 
-    padding: 20px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    text-align: center; 
-    
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
 }
 
 /* Estilo para los títulos (días) */
 .horarios h4 {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     color: #333;
-    margin: 10px 0; 
+    margin: 10px 0;
 }
 
 /* Estilo para los horarios (párrafos) */
 .horarios p {
-    font-size: 1.2em; 
-    color: #666; 
-    margin: 5px 0; 
-    
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
 }
-
 
 /* Estilos para el pie de página */
 footer {
@@ -173,9 +163,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-
-    
 
 /* Estilo para el título */
 h1 {
@@ -202,33 +189,57 @@ h1 {
     transition: transform 0.3s;
 }
 
-/* estilo para sobre nosotros*/
 
+/* Estilo para sobre nosotros */
 h2, p, #sobrenosotros {
     text-align: center;
-    
-
 }
 
-/* estilo para menu*/
+/* Estilo para menu */
 .menu {
-    background-color: #f2f2f2; 
-    padding: 20px;
+    background-color: #13131341;
     text-align: center;
+    padding: 20px;
 }
-.menu h1 {
-    font-size: 24px; 
+
+h1 {
+    font-size: 28px;
 }
 
 ul {
-    list-style-type: none; 
-    padding: 0; 
-    text-align: center;
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    margin: 5px 0; 
+    margin: 5px 0;
+    text-align: center;
+    
 }
+
+ul li {
+    margin-bottom: 30px;
+    
+}
+@media (max-width: 576px){
+    .bloque img{
+        display: none;
+    }
+
+}
+
+
+
+ 
+       
+   
+
+
+
+
+    
+    
+  
 
    
 
