@@ -1,27 +1,31 @@
+@import "./partials/variables";
+
 *{
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $fuente;
 }
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: $color-primary;
 }
 
 
 header {
     background-color: #333;
-    color:#ccc;
+    color:$color-hover;
     text-align: center;
     padding:10px 0;
 }
 nav a{
-    color:#ee9208;
+    color: $color-letranav;
     text-decoration: none;
     margin: 0 10px;
     text-decoration: none;
+    
 }
 
     .container {
@@ -43,6 +47,7 @@ article {
     }
     .bloque1 a {
         color: #ee9208;
+        
     }
 }
 
@@ -70,7 +75,7 @@ article {
 
 /* Estilos para la sección "Nos encontramos aquí" */
 .bloque5 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $fuente;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -210,12 +215,8 @@ ul {
     }
     
 }
+@import "./partials/queries";
 
 
 
-@media (max-width: 576px){
-    .bloque img{
-        display: none;
-    }
 
-}

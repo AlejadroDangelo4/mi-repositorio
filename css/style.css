@@ -1,9 +1,10 @@
 @charset "UTF-8";
+/* variables */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial";
 }
 
 body {
@@ -69,7 +70,7 @@ article .bloque1 a {
 
 /* Estilos para la sección "Nos encontramos aquí" */
 .bloque5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial";
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
