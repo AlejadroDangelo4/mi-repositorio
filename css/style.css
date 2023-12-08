@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /* variables */
 * {
   box-sizing: border-box;
@@ -167,10 +167,16 @@ h1 {
   justify-content: center;
 }
 .gallery img {
-  margin: 10px;
+  margin: 15px;
   max-width: 500px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background: rgb(232, 232, 232);
+  background: linear-gradient(90deg, rgb(232, 232, 232) 0%, rgb(255, 255, 255) 50%, rgb(232, 232, 232) 100%);
 }
 
 .gallery img:hover {
@@ -181,6 +187,7 @@ h1 {
 /* Estilo para sobre nosotros */
 h2, p, #sobrenosotros {
   text-align: center;
+  padding-top: 5px;
 }
 
 /* Estilo para menu */
@@ -197,6 +204,17 @@ h1 {
 ul {
   list-style: none;
   padding: 0;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background: rgb(232, 232, 232);
+  background: linear-gradient(90deg, rgb(232, 232, 232) 0%, rgb(255, 255, 255) 50%, rgb(232, 232, 232) 100%);
 }
 ul li {
   margin: 5px 0;
@@ -210,4 +228,4 @@ ul li {
   }
 }
 
-
+/*# sourceMappingURL=style.css.map */

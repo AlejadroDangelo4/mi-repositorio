@@ -44,6 +44,7 @@ article {
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         text-align: center;
+
     }
     .bloque1 a {
         color: #ee9208;
@@ -174,10 +175,16 @@ h1 {
     justify-content: center;
 
      img {
-        margin: 10px;
+        margin: 15px;
         max-width: 500px;
         border: 1px solid #ccc;
         border-radius: 5px;
+        padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(255,255,255,1) 50%, rgba(232,232,232,1) 100%);
     }
 }
 
@@ -190,6 +197,7 @@ h1 {
 /* Estilo para sobre nosotros */
 h2, p, #sobrenosotros {
     text-align: center;
+    padding-top: 5px;
 }
 
 /* Estilo para menu */
@@ -206,6 +214,17 @@ h1 {
 ul {
     list-style: none;
     padding: 0;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(255,255,255,1) 50%, rgba(232,232,232,1) 100%);
     
     li {
         margin: 5px 0;
@@ -215,6 +234,8 @@ ul {
     }
     
 }
+
+
 @import "./partials/queries";
 
 
